@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+}
+/* header section */
+.header{
+    background-color: rgb(61, 180, 216);
+}
+.header img{
+    height: 68px;
+}
+.main-menu{}
+.main-menu ul{
+    margin-bottom: 0px;
+    text-align: right;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-right: -4px;
+}
+.main-menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 68px;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+}
+.main-menu ul li a:hover{
+    background-color: #348bc4;
+    transition: 0.4s;
+}
+
+/* banner section */
+.banner{
+    background-image: url(./img/sider.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text {
+    color: white;
+}
+.banner h1 {
+    background: rgb(55 190 208 / 90%);
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner h2 {
+    background: rgb(55 190 208 / 90%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 290px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* about text */
+.about{
+    background-color: #fafafa;
+}
+.about p {
+    margin: auto;
+    width: 700px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* service section */
+.srvice{
+    background-color: #f9f9f9;
+}
+.srvice span {
+    display: block;
+    background: #2980b9;
+    height: 50px;
+    width: 50px;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 20px 0 20px 0;
+}
+
+/* product */
+.product img{
+    max-width: 100%;
+}
+.product p{
+    font-size: 18px;
+}
+
+/* product-right */
+.product-right ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background-color: #f7f7f7;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* footer */
+.footer{
+    background-color: #34495e;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #dde9f0;
+    transition: 0.4s;
+}
